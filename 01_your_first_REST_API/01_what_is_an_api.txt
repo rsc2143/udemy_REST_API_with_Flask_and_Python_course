@@ -1,0 +1,24 @@
+What is an API?
+In this course we're going to be building our own APIs.
+
+An API is a program that takes in some data and gives back some other data, usually after processing it.
+
+We will be building such programs, so that our users can send us some data, we can process it, and then we can send them something else.
+
+For example, Twitter Search. Twitter search accepts data (the search parameters), processes it (finds the tweets that match those parameters), and sends data back (the tweets themselves).
+
+If you are a user of the Twitter Search API, you can send them the search parameters and you get back the tweets.
+
+---
+
+If you are the developer of the Twitter Search API, you write code that accepts those search parameters, finds tweets in your database, and sends them back to the user.
+
+---
+
+If you want to interact with an API—that is, you want to be the user of the API—we've written a blog post about it: https://blog.tecladocode.com/how-to-interact-with-apis-using-python/
+
+The rest of the course focuses on building APIs, not using them!
+
+Happy coding,
+
+Jose
