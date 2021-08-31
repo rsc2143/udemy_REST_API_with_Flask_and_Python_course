@@ -1,0 +1,45 @@
+Web server : Piece of software designed to accept incoming requests.
+Eg:When we go to http://www.google.com, we send the following:
+
+    GET / HTTP/1.1
+    Host: www.google.com
+
+GET request:
+  GET / HTTP/1.1
+    Here- GET is a verb
+          / is the path
+          HTTP is the protocol
+
+Responses from the server to any request:
+- Server may give an error, if / or path is not found
+- Server may give an error, if HTTP is not supported
+- Server may give an error, if server is not available
+- Server may give HTML code back
+- Server may give back text
+- Server may not give anything
+
+Examples of different page responses:
+- If we go to https://twitter.com/login
+    GET /login HTTP/1.1
+    Host: https://twitter.com
+
+- If we go to https://git-scm.com/download/mac
+    GET /download/mac HTTP/1.1
+    Host: https://git-scm.com
+
+
+So the forward slash or / is the root
+
+HTTP verbs:
+  GET
+  POST
+  DELETE
+  PUT
+  OPTIONS
+  HEAD
+
+ verb       meaning                             Examples
+ GET        Retrieve something                  GET / item/1
+ POST       Receive data, and use it            POST /item
+ PUT        Make sure something is there        PUT /item
+ DELETE     Remove something                    DELETE /item/1

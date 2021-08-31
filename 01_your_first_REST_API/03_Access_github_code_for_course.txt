@@ -1,0 +1,14 @@
+Access the code for this section here
+Hello!
+
+You may access the code in this section here: https://github.com/schoolofcode-me/rest-api-sections/tree/master/section3
+
+Remember, it's always a great idea to type the code, rather than copy-paste it.
+
+Write the code alongside the video, and use the code above to check for mistakes and to refresh your memory.
+
+Kind regards,
+
+Jose
+
+Fullscreen

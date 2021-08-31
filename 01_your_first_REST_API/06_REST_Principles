@@ -1,0 +1,28 @@
+What is a REST API?
+- Its a way of thinking how a web server responds to your requests
+- It doesnt respond with just data
+- It responds with resources
+
+Resources
+
+Example, we have a chair element of the item resource
+So we can have following resources
+
+GET /item/chair
+POST /item/chair    with some extra data
+PUT /item/chair     with some extra data
+DELETE /item/chair
+
+Stateless
+- It means that one request cannot depend on another requests
+- Eg
+Example 1
+  POST /item/chair creates a chair
+  The server doesnt know it has created a chair. It created it, updated it in the database and then forgot about it
+  GET /item/chair then goes to the database, checks if it exists and then retrieves it.
+
+Example 2
+A user logs into twitter.com
+The server does not know the user is logged in, since the server is Stateless
+The web application must send enough data to identify the user in every request, or else the server wont associate the request
+with the user
